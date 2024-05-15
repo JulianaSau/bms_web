@@ -7,6 +7,10 @@
   <a href="https://github.com/JulianaSau/bms_web/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
 </div>
 <br/>
+
+![image](https://github.com/JulianaSau/bms_web/assets/49183775/fe6e5191-6138-4a30-9914-05e22c53855f)
+
+<br/>
 <div align="center">
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -18,9 +22,9 @@
 <details open="open">
 <summary>Table of Contents</summary>
 
-- [About](#about)
+- [Introduction](#about)
   - [Built With](#built-with)
-- [Getting Started](#getting-started)
+- [Installation](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
     - [Variables reference](#variables-reference)
@@ -198,11 +202,11 @@ docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
 yarn build
 ```
 
-## Contributions
+## Contributing
 
 Please check on the gitub project to see assigned tasks to make conrtibutions to the repo
 
-## Contribution Guidelines
+### Contribution Guidelines
 
 1. Clone the repo `git clone https://github.com/JulianaSau/bms_web`.
 2. Open your terminal & set the origin branch: `git remote add origin https://github.com/JulianaSau/bms_web.git`
@@ -216,7 +220,7 @@ Please check on the gitub project to see assigned tasks to make conrtibutions to
 10. Ensure to describe your pull request.
 11. If you've added code that should be tested, add some test examples.
 
-## Merging
+### Merging
 
 - Pipeline is `feature branch` -> `dev` -> `staging` -> `main`
 
@@ -247,3 +251,6 @@ Reach out to the maintainer at one of the following places:
 
 - [Twitter](https://x.com/juliana_sau)
 - The email which is located [in GitHub profile](https://github.com/JulianaSau)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/JulianaSau/bms_web/) file for details.
