@@ -6,18 +6,13 @@
   ·
   <a href="https://github.com/JulianaSau/bms_web/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
 </div>
-
-<div style="max-width:500px; margin:auto; align-items:center; justify-content:space-between; display:flex; flex-direction:row; margin-top:10px;">
-<br />
+<br/>
+<div align="center">
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
 [![license](https://img.shields.io/static/v1?label=licence&message=MIT&color=yellowgreen&style=flat-square)](LICENSE)
-
 [![made with heart by bms_web](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-bms_web-ff1414.svg?style=flat-square)](https://github.com/JulianaSau/bms_web/)
-
 [![Test and Build App](https://github.com/Kiotapay-org/financial_module/actions/workflows/test.yml/badge.svg?branch=develop)](https://github.com/JulianaSau/bms_web/actions/workflows/test.yml)
-
 </div>
 
 <details open="open">
@@ -37,7 +32,10 @@
 
 ## About
 
-This is an application meant to manage spending for individuals and organisations. It is built using ReactJs
+This is an application meant to ease bus booking created by [Juliana Sau]([https://](https://www.linkedin.com/in/juliana-sau/)). It is built using ReactJs
+
+- [Deployed Site](https://bookings.rentallscale.com)
+- [Find out what inspired this app]()
 
 ## Features
 
