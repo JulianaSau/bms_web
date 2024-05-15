@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --darkBlack: #000000;
+  --lightblue:rgb(204, 235, 233);
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* globals */
+body {
+  padding-top: 90px;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+} */
+th {
+  font-size: 30px;
+  align-self: 'center';
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+/* Home page Banner component */
+.hero {
+  min-height: calc(80vh - 66px);
+  background: url("./images/bus1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tile-hero {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  background-color: red;
+  position: absolute;
+  bottom: 100px;
+}
+.error {
+  min-height: calc(80vh - 66px);
+  background: url("./images/bus2.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-icon2 {
+  font-size: 2em;
+  color: maroon;
+}
+/* Features Component */
+.features1 {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  /* background: #7db3cc; */
+  background: rgb(204, 235, 233);
+  color: white;
+  padding: 30px;
+  justify-content: center;
+}
+.card {
+  margin: 25px;
+  width: 80%;
+  height: 300px;
+  padding: 30px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  max-width: 100%;
+}
+.nav-icon2 {
+  font-size: 2em;
+  color: white;
+}
+/*Footer Component*/
+.footer{
+  padding: 10px 10px;
+  background: black;
+  color: white;
+}
+.social{
+  margin: 5px;
+  display: flex;
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 20px 100px;
+  }
+}
